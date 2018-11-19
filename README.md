@@ -29,8 +29,10 @@ file_type_text.svg
 console.log(vscodeIcons.getIconForFolder("node_modules"));
 folder_type_light_node.svg
 
-if you want svg files,you can download vscode-icons-js-example/docs/icons(https://github.com/dderevjanik/vscode-icons-js-example)
+if you want svg files,you can download vscode-icons-js-example/docs/icons
+(https://github.com/dderevjanik/vscode-icons-js-example)
 
 
 you can see the example in test 
 
+thanks for the vscode-icons's author:dderevjanik 
