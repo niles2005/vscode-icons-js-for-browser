@@ -9,11 +9,12 @@ so i do some patch ,and build it as a pure js lib,also not need requirejs.
 ## Install
 npm install
 
-before build,you should install typescript first.
-npm i -g typescript
 
 ## Build
 npm run build
+
+before build,you should install typescript first.
+npm i -g typescript
 
 usage:
 <script src="vscode-icons-min.js"></script>
