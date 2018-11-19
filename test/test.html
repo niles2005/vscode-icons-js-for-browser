@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vscode icons for browser</title>
+</head>
+<body>
+    
+</body>
+<script src="vscode-icons-min.js"></script>
+<script>
+    let files = ["a.js","a.exe","a.txt","a.jpg","a.json","a.html"];
+    files.forEach(file => {
+        document.write(`<div>${file}   ==>  ${vscodeIcons.getIconForFile(file)}</div>`);
+    })
+    document.write("<p>");
+    let folders = ["node_modules","build","src","dist","classes","temp"];
+    folders.forEach(folder => {
+        document.write(`<div>${folder}   ==>  ${vscodeIcons.getIconForFolder(folder)}</div>`);
+    })    
+</script>
+</html>

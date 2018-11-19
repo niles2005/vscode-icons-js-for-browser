@@ -1,0 +1,23 @@
+{
+  "name": "vscode-icons-js-for-browser",
+  "version": "1.0.0",
+  "description": "use vscode-icons in browser,depend on vscode-icons-js(https://github.com/dderevjanik/vscode-icons-js/tree/master/src)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && gulp"
+  },
+  "keywords": [],
+  "author": "nielei",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-minify": "^3.1.0"
+  },
+  "dependencies": {
+    "vscode-icons-js": "^7.25.2"
+  }
+}
